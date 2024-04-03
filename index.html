@@ -3,50 +3,161 @@
 <html lang="pt-BR">
 
 <head>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="Refresh" content="60" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="https://cdn.glitch.global/b39d6a4a-0e14-4b41-930d-29d3ccd6c137/PINGOBRAS icon.png?v=1665177105635" />
     <links></links>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"/>
+
     <link rel="stylesheet" href="./src/css/style.css">
     <!-- <link rel="stylesheet" href="./src/css/responsivo.css"> -->
     <link rel="stylesheet" href="./src/css/reset.css">
     <seo>
-	<meta
-	name="description"
-	content="Projeto Portfolio  || Atualmente, pode ser acessado através do endereço https://luisdasartimanhas.github.io/projeto-portfolio/."/>
-	<meta name="robots" content="index,follow" />
-	<meta property="og:title" content="PINGOBRAS Portfolio" />
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://luisdasartimanhas.github.io/projeto-portfolio/" />
-	<meta
-	property="og:image"
-	content="./src/img/one-piece-logo.png"/>
-	<meta name="twitter:card" content="summary" />
-	</seo>
+    <meta
+    name="description"
+    content="Projeto Portfolio  || Atualmente, pode ser acessado através do endereço https://luisdasartimanhas.github.io/projeto-portfolio/."/>
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="PINGOBRAS Portfolio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://luisdasartimanhas.github.io/projeto-portfolio/" />
+    <meta
+    property="og:image"
+    content="./src/img/one-piece-logo.png"/>
+    <meta name="twitter:card" content="summary" />
+    </seo>
 
-	<title>PINGOBRAS PORTFOLIO</title>
+    <title>LUIS DAS ARTIMANHAS - Desenvolvedor Full Stack </title>
 </head>
 <body>
-	<header>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">LDA</h1>
+        </a>
 
-	</header>
-	<main>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos">Meus Projetos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="info">
+                <h1>Olá, Sou Luis Augusto (Luis Das Artimanhas)</h1>
+                <p>Um desenvolvedor Full Stack apaixonado por tecnologia.</p>
+                <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de compartilhar meus conhecimentos. 😁</p>
+                <p>Ah, também sou fã de jogos, filmes, séries e animes. 💜</p>
 
-	</main>
-	<scripts>
-		<script src="./src/js/loader.js"></script>
-		<script src="./src/js/index.js" defer></script>
-		<!-- <script src="https://pingobras.glitch.me/js/links.js" defer></script> -->
-	</scripts>
-	<autoscripts>
-		<script src="https://pingobras.glitch.me/js/load-scripts.js"></script>
-	</autoscripts>
-	<host>
-		<script src="https://pingobras.glitch.me/js/load-host.js" defer></script>
-	</host>
+                <ul class="redes-sociais">
+                    <li>
+                        <a href="https://linkedin.com/luis-augusto-de-souza-235842268" title="Ir para o linkedin target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://wa.me/995744791" title="Enviar Mensagem no Whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/LUISDASARTIMANAHS" title="Ir para o GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://instagram.com/luis_das_artimanhas" title="Ir para o Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-foto">
+                <div class="foto sombra-interna">
+                    <img src="./src/img/foto-perfil.png" alt="Foto do Portfolio de luis das artimanhas">
+                </div>
+            </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <h2 class="titulo">Meus Projetos</h2>
+
+            <div class="container-projetos">
+                <div class="projeto ativo">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="./src/img/projeto-gta.png" alt="Projeto Landing page GTA">
+                        <h3>Projeto GTA</h3>
+
+                        <div class="info-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto ativo">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="./src/img/projeto-listagem-pokemon.png" alt="Projeto Landing page listagem pokemon">
+                        <h3>Projeto listagem pokemon</h3>
+
+                        <div class="info-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto ativo">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="./src/img/projeto-one-piece.png" alt="Projeto Landing page One Piece">
+                        <h3>Projeto One Piece</h3>
+
+                        <div class="info-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto ativo">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="./src/img/projeto-x-men.png" alt="Projeto Landing page X-Men">
+                        <h3>Projeto X-Men</h3>
+
+                        <div class="info-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <button class="btn-mostrar-projetos">
+                Mostrar mais
+            </button>
+        </section>
+    </main>
+    <scripts>
+        <script src="./src/js/loader.js"></script>
+        <script src="./src/js/index.js" defer></script>
+        <!-- <script src="https://pingobras.glitch.me/js/links.js" defer></script> -->
+    </scripts>
+    <autoscripts>
+        <script src="https://pingobras.glitch.me/js/load-scripts.js"></script>
+    </autoscripts>
+    <host>
+        <script src="https://pingobras.glitch.me/js/load-host.js" defer></script>
+    </host>
 </body>
 </html>
