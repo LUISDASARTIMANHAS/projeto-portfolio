@@ -1,10 +1,10 @@
 const btnMostrarPJ = document.querySelector(".btn-mostrar-projetos");
 const projetosInativos = document.querySelectorAll(".projeto:not(.ativo)");
 
-btnMostrarPJ.addEventListener("click",addClassAtivo)
+btnMostrarPJ.addEventListener("click",mostrarMaisPJ)
 
 function mostrarMaisPJ(){
-    mostrarMaisPJ();
+    addClassAtivo();
     btnMostrarPJ.classList.add("remover");
 }
 
